@@ -9,11 +9,13 @@
 <style lang="scss">
     header {
         position: relative;
-        height: 80px;
+        height: 60px;
+        margin: 0;
     }
 
-    .header {
+    header .header {
         position: fixed;
+        margin-bottom: 0;
         top: 0;
         width: 100%;
         height: 60px;
