@@ -24,18 +24,28 @@
 </ul>
 
 <style lang="scss">
-  ul li {
-    color: whitesmoke;
-    padding: 4px 0;
-  }
-  ul li a {
-    color: whitesmoke;
-    text-decoration: underline;
-  }
-  ul li a:hover {
-    opacity: 0.6;
-  }
-  .nested-link {
-    margin-left: 20px;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      color: whitesmoke;
+      padding: 4px 0;
+
+      a {
+        display: block;
+        color: whitesmoke;
+        text-decoration: none;
+
+        &:hover {
+          opacity: 0.8;
+          text-decoration: underline;
+        }
+      }
+      &.nested-link {
+        margin-left: 20px;
+      }
+    }
   }
 </style>

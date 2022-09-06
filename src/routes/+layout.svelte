@@ -39,6 +39,7 @@
 
 	.container {
 		flex-grow: 1;
+		padding: 24px;
 	}
 
 	.wrapper {
@@ -49,8 +50,9 @@
 	.side {
 		display: inline-flex;
 		background: gray;
-		width: 360px;
+		width: 300px;
 		height: calc(100vh - 160px);
+		padding: 24px 16px;
 	}
 
 	.main {
@@ -59,4 +61,5 @@
 		background: whitesmoke;
 		height: calc(100vh - 160px);
 	}
+
 </style>

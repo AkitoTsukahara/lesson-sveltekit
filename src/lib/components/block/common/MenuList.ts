@@ -48,19 +48,19 @@ export const menuList: menu[] =
       nest: [
         {
           text: 'Assignments',
-          link: '/introduction/reactive-assignments'
+          link: '/reactive/assignments'
         },
         {
           text: 'Declarations',
-          link: '/introduction/reactive-declarations'
+          link: '/reactive/declarations'
         },
         {
           text: 'Statements',
-          link: '/introduction/reactive-statements'
+          link: '/reactive/statements'
         },
         {
           text: 'Updating arrays and objects',
-          link: '/introduction/updating-arrays-and-objects'
+          link: '/reactive/updating-arrays-and-objects'
         },
       ]
     },
@@ -69,15 +69,15 @@ export const menuList: menu[] =
       nest: [
         {
           text: 'Declaring props',
-          link: '/declaring-props'
+          link: '/props/declaring-props'
         },
         {
           text: 'Default values',
-          link: '/default-values'
+          link: '/props/default-values'
         },
         {
           text: 'Spread props',
-          link: '/spread-props'
+          link: '/props/spread-props'
         },
       ]
     }
