@@ -1,10 +1,10 @@
 <footer>
-    <p></p>
+	<p />
 </footer>
 
 <style lang="scss">
-    footer {
-        height: 100px;
-        background-color: $dark-blue;
-    }
+	footer {
+		height: 100px;
+		background-color: $dark-blue;
+	}
 </style>
