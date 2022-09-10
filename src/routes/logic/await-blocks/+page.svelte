@@ -31,6 +31,6 @@
 
 
 errorを省略した書き方もできる
-{#await promise then value}
-  <p>the value is {value}</p>
-{/await}
+<!--{#await promise then value}-->
+<!--  <p>the value is {value}</p>-->
+<!--{/await}-->
