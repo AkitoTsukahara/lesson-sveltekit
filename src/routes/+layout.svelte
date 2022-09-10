@@ -1,7 +1,9 @@
 <script lang="ts">
+	import {page} from '$app/stores';
 	import CommonHeader from '$lib/components/page/common/CommonHeader.svelte';
 	import CommonFooter from '$lib/components/page/common/CommonFooter.svelte';
 	import CommonSideMenu from '$lib/components/page/common/CommonSideMenu.svelte';
+
 </script>
 
 <div class="layout">
@@ -11,7 +13,7 @@
 
 	<div class="wrapper">
 		<div class="side">
-			<CommonSideMenu />
+			<CommonSideMenu pathname={$page.url.pathname}/>
 		</div>
 
 		<div class="main">

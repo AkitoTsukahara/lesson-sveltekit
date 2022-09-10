@@ -1,5 +1,6 @@
 <script lang="ts">
   import { menuList } from './MenuList'
+  export let pathname: string
 </script>
 
 
@@ -12,7 +13,11 @@
       </li>
       {#each nest as { text, link, nest }, i}
         <li class="nested-link">
+          {#if link === pathname}
+          <a class="now-page" href={link}>{text}</a>
+          {:else}
           <a href={link}>{text}</a>
+          {/if}
         </li>
       {/each}
     {:else}
@@ -37,6 +42,13 @@
         display: block;
         color: whitesmoke;
         text-decoration: none;
+
+        &.now-page {
+          font-size: 16px;
+          font-weight: bold;
+          text-decoration: underline;
+          color: #FFFF00;
+        }
 
         &:hover {
           opacity: 0.8;
