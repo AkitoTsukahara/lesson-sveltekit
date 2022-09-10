@@ -25,6 +25,9 @@
 </div>
 
 <style lang="scss">
+	* {
+		box-sizing: border-box;
+	}
 	:global(body) {
 		margin: 0;
 		padding: 0;
@@ -45,6 +48,7 @@
 	.wrapper {
 		display: flex;
 		flex-wrap: wrap;
+		height: calc(100vh - 160px);
 	}
 
 	.side {
@@ -53,6 +57,7 @@
 		width: 300px;
 		height: calc(100vh - 160px);
 		padding: 24px 16px;
+		overflow-y: scroll;
 	}
 
 	.main {
