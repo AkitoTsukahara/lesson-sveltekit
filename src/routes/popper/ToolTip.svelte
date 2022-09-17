@@ -13,7 +13,13 @@
         {
           name: 'offset',
           options: {
-            offset: [0, 8]
+            offset: [0, 16],
+          }
+        },
+        {
+          name: 'arrow',
+          options: {
+            padding: 8,
           }
         },
       ]
@@ -42,7 +48,7 @@
       font-size: 14px;
       line-height: 20px;
       color: #fff;
-      padding: 16px;
+      padding: 24px;
     }
 
     .arrow {
@@ -56,6 +62,16 @@
     &[data-popper-placement^='bottom'] > .arrow {
       border-bottom: 14px solid rgba(18, 21, 46, 0.7);
       top: -21px;
+    }
+
+    &[data-popper-placement^='right'] > .arrow {
+      border-right: 14px solid rgba(18, 21, 46, 0.7);
+      left: -21px;
+    }
+
+    &[data-popper-placement^='left'] > .arrow {
+      border-left: 14px solid rgba(18, 21, 46, 0.7);
+      right: -21px;
     }
 
     .arrow::before {
