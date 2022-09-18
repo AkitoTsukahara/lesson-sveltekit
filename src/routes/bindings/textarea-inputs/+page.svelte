@@ -1,6 +1,10 @@
 <script>
   import { marked } from 'marked';
-  let value = `Some words are *italic*, some are **bold**`;
+  let value = `Some words are *italic*, some are **bold**
+  - aaaaa
+- bbbbb
+  - 11111
+  `;
 </script>
 
 {@html marked(value)}
