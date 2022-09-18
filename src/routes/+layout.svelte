@@ -50,14 +50,14 @@
 	.wrapper {
 		display: flex;
 		flex-wrap: wrap;
-		height: calc(100vh - 160px);
+		height: calc(100vh);
 	}
 
 	.side {
 		display: inline-flex;
 		background: gray;
 		width: 300px;
-		height: calc(100vh - 160px);
+		height: calc(100vh);
 		padding: 24px 16px;
 		overflow-y: scroll;
 	}
@@ -66,7 +66,7 @@
 		display: inline-flex;
 		flex: 1;
 		background: whitesmoke;
-		height: calc(100vh - 160px);
+		height: calc(100vh);
 	}
 
 </style>

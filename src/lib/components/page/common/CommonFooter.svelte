@@ -4,7 +4,7 @@
 
 <style lang="scss">
 	footer {
-		height: 100px;
+		height: 24px;
 		background-color: $dark-blue;
 	}
 </style>
